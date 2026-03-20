@@ -1,0 +1,46 @@
+<!--EXTERNAL_PROPERTIES: GameVersion;-->
+<Project Sdk="Bannerlord.BUTRModule.Sdk/1.1.0.129">
+
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+    
+    <BuildForWindows>true</BuildForWindows>
+    <BuildForWindowsStore>true</BuildForWindowsStore>
+    
+    <!-- Module Id -->
+    <ModuleId>Bannerlord.GABS</ModuleId>
+    <!-- Module Name -->
+    <ModuleName>AI Game Agent Server</ModuleName>
+    <!-- Module Url -->
+    <ModuleUrl>https://www.nexusmods.com/mountandblade2bannerlord/mods/10419</ModuleUrl>
+    <!-- Module Version -->
+    <Version>1.0.0</Version>
+    <Platforms>x64</Platforms>
+    <!-- Module manually override GameVersion -->
+    <!-- <OverrideGameVersion>v1.0.0</OverrideGameVersion> -->
+
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Authors>BUTR</Authors>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <HarmonyVersion>2.2.2</HarmonyVersion>
+    <ButterLibVersion>2.9.10</ButterLibVersion>
+    <MCMVersion>5.10.2</MCMVersion>
+
+    <HarmonyExtensionsVersion>3.2.0.77</HarmonyExtensionsVersion>
+    <BUTRModuleManagerVersion>6.0.247</BUTRModuleManagerVersion>
+    <BUTRSharedVersion>3.0.0.142</BUTRSharedVersion>
+    <BUTRModuleLoaderVersion>1.0.1.50</BUTRModuleLoaderVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Lib.GAB" Version="0.1.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" PrivateAssets="all" IncludeAssets="compile" />
+    <ProjectReference Include="..\Bannerlord.GABS.Generators\Bannerlord.GABS.Generators.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="false" />
+  </ItemGroup>
+
+</Project>

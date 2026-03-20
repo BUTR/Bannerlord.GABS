@@ -1,0 +1,40 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34009.444
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bannerlord.GABS", "src\Bannerlord.GABS\Bannerlord.GABS.csproj", "{FE11F2F8-6EE2-4021-81B7-7BE5B8580B58}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bannerlord.GABS.Generators", "src\Bannerlord.GABS.Generators\Bannerlord.GABS.Generators.csproj", "{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Stable_Debug|x64 = Stable_Debug|x64
+		Stable_Release|x64 = Stable_Release|x64
+		Beta_Debug|x64 = Beta_Debug|x64
+		Beta_Release|x64 = Beta_Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}.Stable_Debug|x64.ActiveCfg = Debug|Any CPU
+		{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}.Stable_Debug|x64.Build.0 = Debug|Any CPU
+		{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}.Stable_Release|x64.ActiveCfg = Release|Any CPU
+		{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}.Stable_Release|x64.Build.0 = Release|Any CPU
+		{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}.Beta_Debug|x64.ActiveCfg = Debug|Any CPU
+		{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}.Beta_Debug|x64.Build.0 = Debug|Any CPU
+		{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}.Beta_Release|x64.ActiveCfg = Release|Any CPU
+		{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}.Beta_Release|x64.Build.0 = Release|Any CPU
+		{FE11F2F8-6EE2-4021-81B7-7BE5B8580B58}.Stable_Debug|x64.ActiveCfg = Stable_Debug|x64
+		{FE11F2F8-6EE2-4021-81B7-7BE5B8580B58}.Stable_Debug|x64.Build.0 = Stable_Debug|x64
+		{FE11F2F8-6EE2-4021-81B7-7BE5B8580B58}.Stable_Release|x64.ActiveCfg = Stable_Release|x64
+		{FE11F2F8-6EE2-4021-81B7-7BE5B8580B58}.Stable_Release|x64.Build.0 = Stable_Release|x64
+		{FE11F2F8-6EE2-4021-81B7-7BE5B8580B58}.Beta_Debug|x64.ActiveCfg = Beta_Debug|x64
+		{FE11F2F8-6EE2-4021-81B7-7BE5B8580B58}.Beta_Debug|x64.Build.0 = Beta_Debug|x64
+		{FE11F2F8-6EE2-4021-81B7-7BE5B8580B58}.Beta_Release|x64.ActiveCfg = Beta_Release|x64
+		{FE11F2F8-6EE2-4021-81B7-7BE5B8580B58}.Beta_Release|x64.Build.0 = Beta_Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BF8F505C-AFAA-414F-8A9E-652BDD9F57BF}
+	EndGlobalSection
+EndGlobal
