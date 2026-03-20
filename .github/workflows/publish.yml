@@ -28,9 +28,10 @@ jobs:
           github-token: ${{secrets.GITHUB_TOKEN}}
 
       - name: Build Bannerlord.GABS
-        run: >-
-          mkdir bannerlord;
-          dotnet pack src/Bannerlord.GABS/Bannerlord.GABS.csproj --configuration Release -p:GameFolder="$PWD/bannerlord" -p:Version="${GITHUB_REF_NAME#v}";
+        run: |
+          mkdir bannerlord
+          $version = "${{ github.ref_name }}".TrimStart('v')
+          dotnet pack src/Bannerlord.GABS/Bannerlord.GABS.csproj --configuration Release -p:GameFolder="$PWD/bannerlord" -p:Version="$version"
         shell: pwsh
 
       - name: Run ChangelogParser
